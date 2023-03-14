@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #111827;
+}
+.container {
+  margin-top: 30px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+/* Navabar */
+.navabr {
+  display: flex;
+}
+
+.hamburger-icon {
+  display: none;
+  width: 10%;
+}
+
+.hamburger-icon img {
+  width: 20%;
+}
+
+.navabr ul {
+  display: flex;
+  gap: 25px;
+  justify-content: flex-end;
+  width: 97%;
+}
+
+.navabr ul li {
+  list-style: none;
+}
+#home {
+  background-color: rgb(50, 50, 246);
+  width: 70px;
+  border-radius: 9px;
+}
+#home a {
+  display: block;
+  margin: 1px auto;
+  width: 50%;
+}
+.navabr ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Main */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+/* Upper Main */
+.upper-sec-container {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  column-gap: 15px;
+}
+/* Left upper Main */
+.upper-left-sec {
+  margin-right: 30px;
+  align-self: center;
+  justify-self: end;
+}
+
+.upper-left-sec img {
+  width: 30px;
+}
+
+/* Right upper Main */
+.upper-right-sec {
+  justify-self: start;
+}
+.upper-right-sec img {
+  width: 215px;
+}
+/* Lower Main */
+
+.lower-sec-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  text-align: center;
+}
+.item-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 25px;
+  row-gap: 10px;
+}
+.lower-sec-container .title {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+.item-container img {
+  width: 180px;
+}
+.item-1,
+.item-3 {
+  justify-self: end;
+}
+.item-2,
+.item-4 {
+  justify-self: start;
+}
+
+/* Footer */
+.footer-container {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  color: white;
+}
+.ConatctUs {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+.footer-container img {
+  width: 30px;
+}
+#github img,
+#linkedIn img {
+  width: 20px;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
